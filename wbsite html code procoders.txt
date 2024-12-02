@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DERMA</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">DERMA <span></span></a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+      <ul class="navlist">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Doctors</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="top-btn">
+        <a href="#" class="h-btn">Contact Us</a>
+      </div>
+    </header>
+
+    <section class="hero" id="home">
+      <div class="main-content">
+        <h4>Hi, There!</h4>
+        <h1>We're <span>pr0 C0ders</span></h1>
+        <p>
+          See Your Skin Clearly: Early Diagnosis for a Healthier Tomorrow
+        </p>
+        <div class="social">
+          <a href="#"><i class="ri-facebook-fill"></i></a>
+          <a href="#"><i class="ri-instagram-fill"></i></a>
+          <a href="#"><i class="ri-twitter-fill"></i></a>
+          <a href="#"><i class="ri-youtube-fill"></i></a>
+        </div>
+        
+      </div>
+    </section>
+    <div class="info"><h3>What we offer</h3></div>
+                    
+            <div class="card">
+                <div class="icon">
+                    <img class="image" src="R.jpg">
+                </div>
+                <div class="info">
+                    <h3>AI Detection</h3>
+                    <p>Record and shoot videos taking into consideration proper settings, followed by production & post-production work</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <img class="image" src="OIP.jpg">
+                </div>
+                <div class="info">
+                    <h3>consulting expert doctors</h3>
+                    <p>Develop complete curriculums for various technical topics to produce digital transformative courses</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="title">Recommended Doctors</h2>
+        <div class="content">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="download.jpg" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Ahmed Yousif</p>
+                    <strong class="project-title">
+                        <span>Doctor</span>
+                        <a href="#" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="download.jpg" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Ahmed Yousif</p>
+                    <strong class="project-title">
+                        <span>Doctor</span>
+                        <a href="#" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="download.jpg" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Ahmed Yousif</p>
+                    <strong class="project-title">
+                        <span>Doctor</span>
+                        <a href="#" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+
+    <section class="cards contact" id="contact">
+        <h2 class="title">Let's work together</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <div class="info">
+                    <h3>Phone</h3>
+                    <p>01558898920</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="info">
+                    <h3>Email</h3>
+                    <p>yusfi089@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+  </body>
+</html>
